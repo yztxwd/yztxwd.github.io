@@ -9,11 +9,9 @@ google-ID: 'UA-154477529-1'
 menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github',     link: 'https://www.github.com/lenpaul'}
-- {icon: 'twitter',    link: 'https://twitter.com/paululele'}
-- {icon: 'linkedin',   link: 'http://www.linkedin.com/in/lenpaul/'}
-- {icon: 'envelope',   link: 'mailto:l.nguyen.paul@gmail.com'}
-- {icon: 'rss-square', link: '/feed.xml'}
+- {icon: 'github',     link: 'https://www.github.com/yztxwd'}
+- {icon: 'twitter',    link: 'https://twitter.com/JianyuYang3'}
+- {icon: 'linkedin',   link: 'https://www.linkedin.com/in/jianyu-yang-2593a81b5/'}
 
 # Customize site text
 pagination:
