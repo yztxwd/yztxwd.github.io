@@ -1,10 +1,10 @@
 # Change 'comments' to true for Disqus comments
 disqus:
-  comments: false
+  comments: true
   disqus_shortname: 'https-lenpaul-github-io-lagrange'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-ID: 'UA-154477529-1'
+google-ID: ''
 
 menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
