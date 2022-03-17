@@ -13,7 +13,7 @@ tags:
 ## 前言
 
 之前我写了一个简单的模块numpyArrayDict.py来保存genome coverage信息，在HDF5文件中，per base coverage的存储方法是：
-![numpy array dict](/img/numpyArrrayDict_structure.png)
+![numpy array dict](/assets/img/numpyArrrayDict_structure.png)
 
 通过这个方法可以将reads在genome上的per base coverage计算完后保存在同一个HDF5文件内，而且一些其他类型的per base info（例如DNA methylation data处理后得到的每个C上甲基化的比例）也可以存储。由于h5py支持直接从文件中读取出给定范围的slice并且输出为numpy array，我们不用将整个genome的数据读取到内存，这样节省了内存，还省去了每次处理的时候都要重新计算coverage的麻烦。但是当时写的脚本同一时间只能有一个reader读取数据，在需要读取大量source的时候会等很长时间。最近看到了parallel hdf5这个功能，正好我也要做大量数据的correlation analysis，就来试试手啦。
 
