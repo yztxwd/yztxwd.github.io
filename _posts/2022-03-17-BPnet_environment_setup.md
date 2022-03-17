@@ -88,7 +88,7 @@ You might notice that I didn't specify cudnn here because `cudnn 7.0.X` compiled
 
 Download the cuDNN compiled by `cudatoolkit=9.0` from https://developer.nvidia.com/rdp/cudnn-archive. You need to register a NVIDIA developer account for this.
 
-![cuDNN 7.0.5](img/cudnn_version.png)
+![cuDNN 7.0.5](/assets/img/cudnn_version.png)
 
 decompress
 
