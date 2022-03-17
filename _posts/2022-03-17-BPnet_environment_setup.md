@@ -10,7 +10,7 @@ tags:
 
 Recently I want to get [BPnet](https://github.com/kundajelab/bpnet) running, but setting up environment for it is a bit tricky, so I wrote down the efforts I spent on this for future reference or anyone having trouble like me.
 
-The main trouble I met is BPnet uses `tensorflow=1.7`, while the cudnn corresponding this version is not available on conda. I did some nasty things to make it work.
+The main trouble I met is BPnet uses `tensorflow=1.7`, while the cudnn corresponding this version is not available on conda. The steps of solving this are described below:
 
 ## Installing tensorflow 1.7 by conda
 
