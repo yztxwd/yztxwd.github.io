@@ -1,12 +1,14 @@
 ---
 layout:         post
 title:          BPnet environment setup
-date:           2021-12-22
+date:           2022-3-18
 author:         Jianyu Yang
 catalog:        true
 tags:
     - setup
 ---
+
+{:toc}
 
 Recently I want to get [BPnet](https://github.com/kundajelab/bpnet) running, but setting up environment for it is a bit tricky, so I wrote down the efforts I spent on this for future reference or anyone having trouble like me.
 
@@ -128,3 +130,13 @@ totalMemory: 11.78GiB freeMemory: 11.48GiB
 2022-03-17 15:58:51.000850: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/device:GPU:0 with 11103 MB memory) -> physical GPU (device: 0, name: NVIDIA TITAN V, pci bus id: 0000:a6:00.0, compute capability: 7.0)
 True
 ```
+
+## Prepare inputs
+
+I didn't find description of what kind of "pos/neg" bigwig files are expected in bpnet repo, on another associated [repo](https://github.com/kundajelab/basepairmodels) that includes bpnet model, there is a tutorial on how to prepare input files. Input files generated according to that works on my side.
+
+## Train
+
+During training, I found although before running evaluation step (which creates a new Tensorflow session) `K.clear_session()` is called to release GPU memory, the GPU memory was not released actually based on `nvidia-smi`, which leads to the program crash. Setting `--memfrac-gpu 0.4` solves this issue.
+
+NOTE: I found another way of resolving it is to use `numba` to release GPU memory, but it needs some modification on the source code, refer [https://github.com/yztxwd/bpnet](https://github.com/yztxwd/bpnet) if you're interested. Might create a pull request later.
