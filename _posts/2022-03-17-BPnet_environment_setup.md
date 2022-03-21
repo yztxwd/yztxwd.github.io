@@ -20,6 +20,13 @@ The main trouble I met is BPnet uses `tensorflow=1.7`, while the cudnn correspon
 
 ### Set up everything except cuDNN
 
+Clone the [BPnet](https://github.com/kundajelab/bpnet) repository first, then enter the root directory of repo.
+
+```bash
+$ git clone https://github.com/kundajelab/bpnet.git
+$ cd bpnet
+```
+
 I used the following yaml file to create conda environment, there is some difference between this and the one available on bpnet repo, because I found there are some requirements of package not listed there.
 
 ```yaml
@@ -80,7 +87,7 @@ dependencies:
   - .[dev,extras]  # install the local basepair package. All the other required pip packages are specified in the setup.py
 ```
 
-Create the environment by the above yaml file:
+Create the environment by the above yaml file (assume you already have conda and mamba installed):
 
 ```bash
 $ mamba env create -f bpnet-gpu_new.yaml -n bpnet-gpu
