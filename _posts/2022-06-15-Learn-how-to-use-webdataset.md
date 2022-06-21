@@ -40,13 +40,13 @@ dataset = open_my_dataset()
 for index, (input, output) in dataset:
     sink.write({
         "__key__": "sample%06d" % index,
-        "input.pyd": input,
-        "output.pyd": output,
+        "input.npy": input,
+        "output.npy": output,
     })
 sink.close()
 ```
 
-Be noticed: This is the part I didn't understand during the last time, the suffix `.pyd` means it would be in pickled format, you can also choose `.npy` to convert numpy array into a string based like `np.save`. There are also other pre-defined suffix (e.g., some compression formats for images) you can use.
+Be noticed: This is the part I didn't understand during the last time, the suffix `.npy` means it would be in numpy format, you can also choose `.pyd` to save in pickle format. There are also other pre-defined suffix (e.g., some compression formats for images) you can use.
 
 ## Load it back
 
