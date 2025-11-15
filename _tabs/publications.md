@@ -3,7 +3,6 @@
 icon: fas fa-book
 order: 5
 ---
-# Publications
 
 ## 2024  
 ### Systematic dissection of sequence features affecting binding specificity of a pioneer factor reveals binding synergy between FOXA1 and AP-1  
