@@ -13,9 +13,9 @@ tabs:
   home: Home
   categories: Categories
   tags: Tags
-  archives: Archives
   about: About
-  about1: About
+  publication: Publications
+  #archives: Archives
 
 # the text displayed in the search bar & search results
 search:

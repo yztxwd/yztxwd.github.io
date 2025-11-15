@@ -11,3 +11,8 @@ My work includes developing CNN/Transformer models to characterize FOXA1/AP-1 bi
 I also develop practical research software, including Seqchromloader (PyTorch/WebDataset toolkit for genomic ML datasets) and Snakemake pipelines for routine ATAC-seq, ChIP-seq, RNA-seq, and MNase-seq preprocessing. These tools are actively used by other members of my lab.
 
 
+Short CV: <a href="/assets/doc/Jianyu_Yang_s_CV_Industry.pdf" download>Click to Download</a>
+
+Academic CV: <a href="/assets/doc/Jianyu_Yang_s_CV_Academia.pdf" download>Click to Download</a>
+
+
