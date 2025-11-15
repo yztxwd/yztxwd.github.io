@@ -71,7 +71,7 @@ conda版本：4.6.14
 ```
 
 ## 使用h5py-parallel实现多进程读取单个文件
-h5py-parallel的使用还是很简单的，根据[docs](http://docs.h5py.org/en/stable/mpi.html)唯一比较需要注意的是任何改变文件strcutre和metadata（比如创建一个新的group）都必须由所有的进程集体操作（就是都执行命令），例子：
+h5py-parallel的使用还是很简单的，根据[docs](https://docs.h5py.org/en/stable/mpi.html)唯一比较需要注意的是任何改变文件strcutre和metadata（比如创建一个新的group）都必须由所有的进程集体操作（就是都执行命令），例子：
 ```
 >>> grp = f.create_group('x')  # right
 
