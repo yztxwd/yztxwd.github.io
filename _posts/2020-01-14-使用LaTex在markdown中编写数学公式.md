@@ -11,7 +11,7 @@ tags: [latex, markdown]
 
 ## 前言
 
-latex是一种便捷的编写数学公式的语言。之前我在word中编写公式使用的是Mathtype，虽然好用，但是要收费。最近我在学习使用markdonw来编写文档，而markdown对latex有着非常棒的支持，这里记录一下使用的方法。
+latex是一种便捷的编写数学公式的语言。之前我在word中编写公式使用的是Mathtype，虽然好用，但是要收费。最近我在学习使用markdown来编写文档，而markdown对latex有着非常棒的支持，这里记录一下使用的方法。
 
 ## 基础语法
 
