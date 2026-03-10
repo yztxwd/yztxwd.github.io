@@ -13,9 +13,9 @@ Recently I developed an input-agnostic concept attribution interpretation method
 I also develop practical research software, including Seqchromloader (PyTorch/WebDataset toolkit for genomic ML datasets) and Snakemake pipelines for routine ATAC-seq, ChIP-seq, RNA-seq, and MNase-seq preprocessing. These tools are actively used by other members of my lab.
 
 
-Google Scholar: https://scholar.google.com/citations?user=r7sRhzoAAAAJ&hl=en
+Google Scholar: [https://scholar.google.com/citations?user=r7sRhzoAAAAJ&hl=en](https://scholar.google.com/citations?user=r7sRhzoAAAAJ&hl=en)
 
-Github: https://github.com/yztxwd
+Github: [https://github.com/yztxwd](https://github.com/yztxwd)
 
 Short resume: <a href="/assets/doc/Jianyu_Yang_s_CV_Industry_v4.pdf" download>Click to Download</a>
 
