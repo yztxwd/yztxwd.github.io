@@ -17,7 +17,7 @@ Google Scholar: [https://scholar.google.com/citations?user=r7sRhzoAAAAJ&hl=en](h
 
 Github: [https://github.com/yztxwd](https://github.com/yztxwd)
 
-Short resume: <a href="/assets/doc/Jianyu_Yang_s_CV_Industry_v4.pdf" download>Click to Download</a>
+Short resume: <a href="/assets/doc/Jianyu_Yang_s_CV_Industry_v5.pdf" download>Click to Download</a>
 
 Academic CV: <a href="/assets/doc/Jianyu_Yang_s_CV_Academia_v3.pdf" download>Click to Download</a>
 
